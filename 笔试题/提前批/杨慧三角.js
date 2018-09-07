@@ -29,3 +29,43 @@ function test(n){
 }
 
 test(4);
+
+
+// 本题为考试单行多行输入输出规范示例，无需提交，不计分。
+while(line=readline()){
+    var lines = line.split(" ");
+    var a = parseInt(lines[0]);
+    var b = parseInt(lines[1]);
+    print(a+b);
+}
+
+
+function test(a,b,c){
+    var result = [];
+    result.push(a,b,c);
+    result.sort()
+
+    var left = result[0]+result[1];
+    var right = result[2];
+    console.log(Number(left)*Number(right))
+}
+test(1,2,3)
+test(3,3,3)
+
+
+while(line=readline()){
+    var lines = line.split(" ");
+    var a = parseInt(lines[0]);
+    var b = parseInt(lines[1]);
+    var c = parseInt(lines[2]);
+    
+        function test(a,b,c){
+        var result = [];
+        result.push(a,b,c);
+        result.sort()
+
+        var left = result[0]+result[1];
+        var right = result[2];
+        console.log(Number(left)*Number(right))
+    }
+}
